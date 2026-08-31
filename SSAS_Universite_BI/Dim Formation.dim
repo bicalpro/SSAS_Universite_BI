@@ -1,0 +1,395 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a9252612-b1be-4b23-97b9-d7632620d281" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Formation</ID>
+  <Name>Dim Formation</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3313" scrolltop="-8784" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8636" y="13843" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Formation" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3260" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000bc0c000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dw_Dim_Formation" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3313</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8784</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="157">
+            <Shape Id="Formation Key" Expanded="true">
+              <Attributes>
+                <Attribute Id="Formation Key" />
+                <Attribute Id="Campus" />
+                <Attribute Id="Code Formation" />
+                <Attribute Id="Frais Annuels" />
+                <Attribute Id="Modalite" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Libelle Formation" Expanded="false">
+              <Attributes>
+                <Attribute Id="Libelle Formation" />
+              </Attributes>
+              <Position x="221" y="20" />
+            </Shape>
+            <Shape Id="Niveau" Expanded="false">
+              <Attributes>
+                <Attribute Id="Niveau" />
+              </Attributes>
+              <Position x="422" y="20" />
+            </Shape>
+            <Shape Id="Departement" Expanded="false">
+              <Attributes>
+                <Attribute Id="Departement" />
+              </Attributes>
+              <Position x="623" y="20" />
+            </Shape>
+            <Shape Id="Ufr" Expanded="false">
+              <Attributes>
+                <Attribute Id="Ufr" />
+              </Attributes>
+              <Position x="825" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1cec1f16-4b7a-43b4-8018-f2c57da46d01">
+    <DataSourceViewID>DSV_Universite_BI</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="50d27330-9bfa-41f5-b589-ae59969f7a43">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="c1fe7d79-8d4b-4b9c-af4a-afd6d8b6aa33">
+      <ID>Formation Key</ID>
+      <Name>Formation Key</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dd60cd48-15ba-414d-9180-95f593137f3d">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b891b0fb-3073-4d3e-8153-15cde4895717">
+            <TableID>dw_Dim_Formation</TableID>
+            <ColumnID>formation_key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7ed17791-4448-4a14-8444-3c7b66515df9">
+          <AttributeID>Code Formation</AttributeID>
+          <Name>Code Formation</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dd3590d9-d331-4cb5-8845-57f483076956">
+          <AttributeID>Libelle Formation</AttributeID>
+          <Name>Formation</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="91efc795-a95b-4d36-8f40-7ae2384a6e65">
+          <AttributeID>Campus</AttributeID>
+          <Name>Campus</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b6e68caf-0900-4911-8464-73d594900e3d">
+          <AttributeID>Modalite</AttributeID>
+          <Name>Modalite</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7f84d550-f65f-4966-94d2-280c88d4603f">
+          <AttributeID>Frais Annuels</AttributeID>
+          <Name>Frais Annuels</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="57def2be-20a7-4aad-955f-32401413f108">
+      <ID>Code Formation</ID>
+      <Name>Code Formation</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ee2a0190-94e4-431c-a518-c6dd0bc3c306">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="eec2b351-6ba9-4b38-abb1-dd10b47d480c">
+            <TableID>dw_Dim_Formation</TableID>
+            <ColumnID>code_formation</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="89375cb6-507f-4f60-b70a-7cfef6f19f60">
+      <ID>Libelle Formation</ID>
+      <Name>Formation</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6c9ce61a-ab24-4311-9189-01e6894c1b26">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fc92c507-edb9-4897-a145-4e80834d9075">
+            <TableID>dw_Dim_Formation</TableID>
+            <ColumnID>formation_key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="6136b060-6b0e-477e-aef1-57030d0d8584">
+        <DataType>WChar</DataType>
+        <DataSize>250</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ee6adf12-0f10-44a6-a677-61ee756693ae">
+          <TableID>dw_Dim_Formation</TableID>
+          <ColumnID>libelle_formation</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1b796aa9-c3d1-472d-860e-a5daf93d716d">
+          <AttributeID>Niveau</AttributeID>
+          <Name>Niveau</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0cb8a1a4-3bce-4831-bd20-08225ba184ad">
+      <ID>Campus</ID>
+      <Name>Campus</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2634dc5d-c22d-49f3-938e-cf1c902f2780">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="47fb746b-4852-4ecf-8843-4a667889049b">
+            <TableID>dw_Dim_Formation</TableID>
+            <ColumnID>campus</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0aec4565-78f6-4483-a2a8-12e4ab0f8747">
+      <ID>Ufr</ID>
+      <Name>UFR</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2e982310-c195-4589-9586-aa45e654a967">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8568a51e-861a-4bd4-8a00-2bac83a720fe">
+            <TableID>dw_Dim_Formation</TableID>
+            <ColumnID>ufr</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f58d5d38-1de6-4a27-b669-76d4faef5e41">
+      <ID>Departement</ID>
+      <Name>Departement</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e3d9d95f-9395-485a-a266-e9fa294f3b4d">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="18eae18c-5aeb-4e79-8f6e-e7e38c030791">
+            <TableID>dw_Dim_Formation</TableID>
+            <ColumnID>ufr</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="aa39272b-5deb-4006-90ca-c00a6e954807">
+          <DataType>WChar</DataType>
+          <DataSize>150</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="31dbe705-5b59-4a33-90a8-65cfd31b320f">
+            <TableID>dw_Dim_Formation</TableID>
+            <ColumnID>departement</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="e055a35b-0ee1-42c7-b7ef-2ce756a28aa8">
+        <DataType>WChar</DataType>
+        <DataSize>150</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="522a6295-8294-4a4f-adc0-1fb8a8f440be">
+          <TableID>dw_Dim_Formation</TableID>
+          <ColumnID>departement</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a8f3fd1a-20c1-463c-9ac6-52f02dda119d">
+          <AttributeID>Ufr</AttributeID>
+          <Name>UFR</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="96e717b7-6f65-40fc-b204-76c2a7c0a433">
+      <ID>Niveau</ID>
+      <Name>Niveau</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1fe1f2fc-cba8-46c5-9b81-865499e75295">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="80aac97c-af24-431a-b415-7519c6ab34d3">
+            <TableID>dw_Dim_Formation</TableID>
+            <ColumnID>ufr</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="0b31bbd9-2e08-4db1-9102-34cf284941d7">
+          <DataType>WChar</DataType>
+          <DataSize>150</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="426028ca-839f-4daf-8baa-a9faeb87b231">
+            <TableID>dw_Dim_Formation</TableID>
+            <ColumnID>departement</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="90019451-d3c4-4027-907a-8540d312a10e">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f69c365e-9d64-4b0d-abe5-c9468c1085d7">
+            <TableID>dw_Dim_Formation</TableID>
+            <ColumnID>niveau</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="c8ab8cb5-86d1-41e2-af35-ac0a9deb528f">
+        <DataType>WChar</DataType>
+        <DataSize>80</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="4266e0e9-8ca8-4c3a-b066-33dd5ada53cf">
+          <TableID>dw_Dim_Formation</TableID>
+          <ColumnID>niveau</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="fa0f288f-581b-4b66-8986-d43a8f8438c3">
+          <AttributeID>Departement</AttributeID>
+          <Name>Departement</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="78d59171-54dc-47e8-848b-8457f60ac9c5">
+      <ID>Modalite</ID>
+      <Name>Modalite</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="24cdb424-7f39-4624-939f-d70090a738a9">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="de8cf177-595d-4f51-a182-9e877a262815">
+            <TableID>dw_Dim_Formation</TableID>
+            <ColumnID>modalite</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9e1118d1-f33d-4b72-a32c-052ee8594284">
+      <ID>Frais Annuels</ID>
+      <Name>Frais Annuels</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ba0a23d2-1fb2-40d5-a3b0-fc83218b9340">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5811997c-3ef6-43d2-abc7-506429bb12ad">
+            <TableID>dw_Dim_Formation</TableID>
+            <ColumnID>frais_annuels</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="2d7479f0-5668-4339-9e78-bf3fa93b9210">
+      <ID>Hiérarchie</ID>
+      <Name>Organisation de la formation</Name>
+      <Levels>
+        <Level dwd:design-time-name="4592c47f-ed28-410a-a92c-f7347d41379a">
+          <ID>UFR</ID>
+          <Name>UFR</Name>
+          <SourceAttributeID>Ufr</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e34a90b0-2bc6-4537-a70c-c2777248a391">
+          <ID>Departement</ID>
+          <Name>Departement</Name>
+          <SourceAttributeID>Departement</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="81f85c68-655a-43f5-9c59-7a3910973079">
+          <ID>Niveau</ID>
+          <Name>Niveau</Name>
+          <SourceAttributeID>Niveau</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1ed3ed52-5310-4ae3-b3a4-27d220dbbec9">
+          <ID>Formation</ID>
+          <Name>Formation</Name>
+          <SourceAttributeID>Libelle Formation</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

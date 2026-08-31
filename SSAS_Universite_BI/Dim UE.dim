@@ -1,0 +1,364 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a54c46ca-dfc7-4ca8-a662-a8620b844ed6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim UE</ID>
+  <Name>Dim UE</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2445" scrolltop="-5489" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8636" y="13843" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Formation" left="20" top="0" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3260" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000bc0c000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dw_Dim_Formation" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_UE" left="150" top="6866" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dw_Dim_UE" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1251" top="3967" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimUE_Formation]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1650" y="4466" />
+              <point x="1650" y="6866" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2445</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5489</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="145">
+            <Shape Id="Ue Key" Expanded="false">
+              <Attributes>
+                <Attribute Id="Ue Key" />
+                <Attribute Id="Code Ue" />
+                <Attribute Id="Coefficient" />
+                <Attribute Id="Credits" />
+                <Attribute Id="Formation Key" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Libelle Ue" Expanded="false">
+              <Attributes>
+                <Attribute Id="Libelle Ue" />
+              </Attributes>
+              <Position x="206" y="20" />
+            </Shape>
+            <Shape Id="Type Ue" Expanded="false">
+              <Attributes>
+                <Attribute Id="Type Ue" />
+              </Attributes>
+              <Position x="392" y="20" />
+            </Shape>
+            <Shape Id="Semestre" Expanded="false">
+              <Attributes>
+                <Attribute Id="Semestre" />
+              </Attributes>
+              <Position x="578" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="692cab01-999a-4951-9901-6bcf9fc7e98f">
+    <DataSourceViewID>DSV_Universite_BI</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="595fd569-20f0-4334-a3eb-f265db737180">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="cd048607-766b-4d0f-ad53-6b475ca1dc35">
+      <ID>Ue Key</ID>
+      <Name>Ue Key</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6fb0359d-2c88-484c-b739-0aab73656ceb">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="002fcafc-83e7-47d1-81b5-ac0d5b4763ee">
+            <TableID>dw_Dim_UE</TableID>
+            <ColumnID>ue_key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d3fd0b37-0b12-42d8-a430-5bc109ae4d06">
+          <AttributeID>Code Ue</AttributeID>
+          <Name>Code Ue</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d9211a72-bcfe-4e6e-a882-3d8e4bee1776">
+          <AttributeID>Libelle Ue</AttributeID>
+          <Name>UE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9843cafe-ab89-4e21-a2be-3fb3f334f41e">
+          <AttributeID>Credits</AttributeID>
+          <Name>Credits</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="792289bc-42f0-42e0-adb0-38b5dd4a04ba">
+          <AttributeID>Coefficient</AttributeID>
+          <Name>Coefficient</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="857a7096-5480-4eed-83d9-dcdc76ef8127">
+          <AttributeID>Formation Key</AttributeID>
+          <Name>Formation Key</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="373a864c-53e4-4da0-ab02-178bb7e4505c">
+      <ID>Code Ue</ID>
+      <Name>Code Ue</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fa9c96f5-fe57-44c0-b309-860080a90bb4">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3901bfb9-9fad-4f13-8a5b-ca39683721ea">
+            <TableID>dw_Dim_UE</TableID>
+            <ColumnID>code_ue</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="037ec2be-0e0f-414f-b5ca-6de827051de9">
+      <ID>Libelle Ue</ID>
+      <Name>UE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5b7df624-1554-4806-8c62-d00564eeb5dc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="98f73ba6-51f9-4f7e-91d2-e37702c86355">
+            <TableID>dw_Dim_UE</TableID>
+            <ColumnID>ue_key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="e9b427cb-3f54-4ecd-a5b4-5be5a0ae521a">
+        <DataType>WChar</DataType>
+        <DataSize>250</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ecb1699a-e7df-4581-ada7-52dc9afd241a">
+          <TableID>dw_Dim_UE</TableID>
+          <ColumnID>libelle_ue</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1bafce7a-4c43-4768-bc59-0ec282a49834">
+          <AttributeID>Type Ue</AttributeID>
+          <Name>Type Ue</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1c62a798-7304-4e80-ab35-5d83b67cc016">
+      <ID>Semestre</ID>
+      <Name>Semestre</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eb90fe82-527b-4f57-9107-6768e1374bbc">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="25a0322e-844e-4540-a6d8-9b6679214ffe">
+            <TableID>dw_Dim_UE</TableID>
+            <ColumnID>semestre</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dfee8e76-bf31-4bab-85a7-e0d1b0cbbb3d">
+      <ID>Credits</ID>
+      <Name>Credits</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9cfa1567-2c3e-48b2-bd4e-2786b2569b10">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="012f3b62-7732-4970-a043-f877c86d389c">
+            <TableID>dw_Dim_UE</TableID>
+            <ColumnID>credits</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fb1bece2-ad5f-49bd-a33e-425208727c97">
+      <ID>Coefficient</ID>
+      <Name>Coefficient</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d7852afc-0c1a-4fa2-ae1e-652645272391">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="abe8c283-6b34-4819-aee7-7c8c6cc483aa">
+            <TableID>dw_Dim_UE</TableID>
+            <ColumnID>coefficient</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="19a2b76e-39b1-4184-b64a-7d47617b21c2">
+      <ID>Type Ue</ID>
+      <Name>Type Ue</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9c59b8c4-89c7-4eac-adb5-26bb0b69edeb">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="04931250-eb43-46fd-814b-07f0b0a01969">
+            <TableID>dw_Dim_UE</TableID>
+            <ColumnID>semestre</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="c88d3cb5-c309-45fc-99b5-843098e7b2e3">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ac253279-e9fa-40f1-b304-9ae09c87ef2d">
+            <TableID>dw_Dim_UE</TableID>
+            <ColumnID>type_ue</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="6a2f23e1-4193-4c36-83f7-4f3a77958789">
+        <DataType>WChar</DataType>
+        <DataSize>80</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d711dabc-03d7-4123-b052-038d46c3d655">
+          <TableID>dw_Dim_UE</TableID>
+          <ColumnID>type_ue</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="24243d5a-01f9-4c0b-b961-a4e88e03e27a">
+          <AttributeID>Semestre</AttributeID>
+          <Name>Semestre</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0c7eb823-6320-46ea-bef8-e9308268f5d2">
+      <ID>Formation Key</ID>
+      <Name>Formation Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="23dcbc3f-13a7-4e32-9d82-a6b0f812618e">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d6b87255-dae2-4e56-9113-93ee07d3dc36">
+            <TableID>dw_Dim_Formation</TableID>
+            <ColumnID>formation_key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="9a592502-a6be-4c94-a742-67db54dd4625">
+      <ID>Hiérarchie</ID>
+      <Name>Organisation UE</Name>
+      <Levels>
+        <Level dwd:design-time-name="62dac19a-28d3-4138-9550-c78f114deb91">
+          <ID>Semestre</ID>
+          <Name>Semestre</Name>
+          <SourceAttributeID>Semestre</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="15a39753-5032-42b3-94ae-d26c8445ef0b">
+          <ID>Type Ue</ID>
+          <Name>Type Ue</Name>
+          <SourceAttributeID>Type Ue</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ef632d64-4875-4334-ad8f-5935d3a7b4c1">
+          <ID>UE</ID>
+          <Name>UE</Name>
+          <SourceAttributeID>Libelle Ue</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

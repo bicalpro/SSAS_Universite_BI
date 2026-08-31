@@ -1,0 +1,65 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="86ba04e5-8886-4c00-9e93-d58f3091dc9d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CUBE_Universite_BI</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Vw Fact Paiement OLAP</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1635f050-e374-454e-baea-a9da84b63ef2">
+          <ID>Vw Fact Paiement OLAP</ID>
+          <Name>Vw Fact Paiement OLAP</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ee4bd3a2-6214-4498-9179-bcae15b8f4e4">
+            <DataSourceViewID>DSV_Universite_BI</DataSourceViewID>
+            <TableID>dw_vw_Fact_Paiement_OLAP</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Resultat UE</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d0a0835e-71ac-428a-8372-c21a05380289">
+          <ID>Fact Resultat UE</ID>
+          <Name>Fact Resultat UE</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c0e6ac98-23ea-4fa7-8069-987f133c8e62">
+            <DataSourceViewID>DSV_Universite_BI</DataSourceViewID>
+            <TableID>dw_Fact_ResultatUE</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Inscription</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c4387928-c3ee-49e9-898f-73b7f0cde017">
+          <ID>Fact Inscription</ID>
+          <Name>Fact Inscription</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6ece9825-1fb0-4554-82ae-ac30bb75db93">
+            <DataSourceViewID>DSV_Universite_BI</DataSourceViewID>
+            <TableID>dw_Fact_Inscription</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
